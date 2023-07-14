@@ -1,0 +1,9 @@
+.info__title,
+.info__description {
+    font-size: var(--small-font-size);
+}
+
+.info__description {
+    color: var(--title-color);
+    font-weight: var(--weight-600);
+}
