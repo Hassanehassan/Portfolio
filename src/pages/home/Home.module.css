@@ -4,11 +4,12 @@
   grid-template-columns: 4.32fr 7.68fr;
   align-items: center;
   height: 100vh;
-  padding: 40px;
+  padding-inline: 40px;
 }
 
 .section {
   padding-block: 70px;
+  max-width: 1140px;
 }
 
 .home__img {

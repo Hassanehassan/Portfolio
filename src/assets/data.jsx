@@ -5,7 +5,14 @@ import {
   FaEnvelopeOpen,
   FaBriefcase,
   FaGraduationCap,
+  FaCode,
 } from "react-icons/fa";
+import { FiFileText } from "react-icons/fi";
+
+import Work1 from "./HtmlCss.png";
+import Work2 from "./mobile.png";
+import Work3 from "./react.png";
+import Work4 from "./angular.png";
 
 export const links = [
   {
@@ -192,7 +199,7 @@ export const resume = [
     year: "2021 - 2022",
     title: "Full Stack with coach “Rony Rizk”",
     desc: "I gained experience in using Angular and Node.js/Express for front-end and back-end development respectively. Additionally, I have worked with MongoDB as the database for my projects.",
-  }, 
+  },
 
   {
     id: 3,
@@ -228,5 +235,119 @@ export const resume = [
     year: "2018",
     title: "General Science <span> Halba High School, Akkar </span>",
     desc: "I have obtained my General Science diploma from Halba High School, located in Akkar, where I gained a comprehensive understanding of various scientific disciplines and developed a strong academic background.",
+  },
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    img: Work1,
+    title: "HtmlCss Project",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Dummy Website",
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: "Client : ",
+      //   desc: "Dribble",
+      // },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Html and Css",
+      },
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: "Preview : ",
+      //   desc: "www.dribble.com",
+      // },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
+    title: "Mobile Application",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Mobile App",
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: "Client : ",
+      //   desc: "Dribble",
+      // },
+      {
+        icon: <FaCode />,
+        title: "Framework : ",
+        desc: "React Native",
+      },
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: "Preview : ",
+      //   desc: "www.dribble.com",
+      // },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: "React Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Sale of meals",
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: "Client : ",
+      //   desc: "Dribble",
+      // },
+      {
+        icon: <FaCode />,
+        title: "Framework : ",
+        desc: "React js",
+      },
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: "Preview : ",
+      //   desc: "www.dribble.com",
+      // },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work4,
+    title: "Angular Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "E-Commerce",
+      },
+      // {
+      //   icon: <FiUser />,
+      //   title: "Client : ",
+      //   desc: "Dribble",
+      // },
+      {
+        icon: <FaCode />,
+        title: "Framework : ",
+        desc: "Angular",
+      },
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: "Preview : ",
+      //   desc: "www.dribble.com",
+      // },
+    ],
   },
 ];
