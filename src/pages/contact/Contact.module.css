@@ -186,7 +186,7 @@
 
 .sent {
   font-size: var(--small-font-size);
-  color: var(--first-color);
+  color: hsl(88, 65%, 43%);
   font-weight: bold;
   text-align: center;
   margin-top: 10px;
