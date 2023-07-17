@@ -5,7 +5,6 @@ import { links } from "../assets/data";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  console.log(showMenu);
   return (
     <nav className={classes.nav}>
       <div
