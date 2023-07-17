@@ -1,0 +1,35 @@
+.section__title {
+  font-size: var(--big-font-size);
+  font-weight: var(--weight-800);
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section__title span {
+  color: var(--first-color);
+}
+
+.container {
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
+.section {
+  padding: 70px;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.portfolio__container {
+  grid-template-columns: repeat(2, 1fr);
+  padding-inline: 50px;
+}
+
+@media (max-width:1023px) {
+  .portfolio__container {
+    padding-inline: 0px;
+  }
+}
