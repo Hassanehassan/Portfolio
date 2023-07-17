@@ -9,8 +9,8 @@
   --border-color: hsl(0, 0%, 87%);
   --text-white: #fff;
 
-  --body-font: 'Open Sans', sans-serif;
-  --second-font: 'Poppins', sans-serif;
+  --body-font: "Open Sans", sans-serif;
+  --second-font: "Poppins", sans-serif;
 
   --big-font-size: 56px;
   --h1-font-size: 50px;
@@ -29,40 +29,54 @@
   --weight-800: 800;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.dark-theme {
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 0%, 80%);
+  --body-color: hsl(0, 0%, 7%);
+  --container-color: hsl(0, 1%, 17%);
+  --border-color: hsl(0, 0%, 15%);
 }
 
-body, input, textarea {
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    font-weight: var(--weight-500);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
 }
 
 body {
-    background-color: var(--body-color);
-    color: var(--text-color);
+  background-color: var(--body-color);
+  color: var(--text-color);
 }
 
-h1,h2,h3,h4 {
-    color: var(--title-color);
-    font-family: var(--second-font);
-    font-weight: var(--weight-700);
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--weight-700);
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-button,input,textarea {
-    background-color: transparent;
-    border: none;
-    outline: none;
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-
